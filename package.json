@@ -1,0 +1,23 @@
+{
+  "name": "@template/monorepo",
+  "version": "1.0.0",
+  "keywords": [
+    "charkra UI",
+    "graphql",
+    "apollo"
+  ],
+  "private": true,
+  "scripts": {
+    "dev": "turbo run dev"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "turbo": "^1.1.4"
+  },
+  "packageManager": "yarn@1.22.17"
+}
